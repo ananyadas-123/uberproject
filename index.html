@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Uber_project</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="Assects\bootstrap\css\bootstrap.min.css">
+	<script src="Assects\bootstrap\css\bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-black px-3 fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Uber</a>
+			<button class="navbar-toggler" type="button" id="customToggleBtn"aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon">
+					</span>
+			</button>
+			<div class="collapse navbar-collapse" id="uberNavbar">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item"><a class="nav-link" href="#">Ride</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Drive</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Business</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+				</ul>
+				<ul class="navbar-nav mb-2 mb-lg-0 align-items-lg-center gap-2">
+					<li class="nav-item"><a class="nav-link" href="#">EN</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Help</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Log in</a></li>
+					<li class="nav-item"><a class="nav-link" href="#" class="btn btn-signup">Sign up</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>	
+<div class="container my-5">
+			<div class="row align-items-center p-5">
+			<!--left section-->
+			<div class="col-md-6 hero-text mb-4">
+				<h1>Go anywhere with uber</h1>
+				<div class="mb-3 mt-4">
+					<input type="text" placeholder="pickup location" class="form-control mb-3">
+					<input type="text" placeholder="Dropoff location" class="form-control">
+				</div>
+				<div class="d-flex mt-3 gap-2">
+					<button class="btn btn-dark btn-outline-secondary">Log in to see your recent activity</button>
+				</div>
+			</div>
+			<!--right section-->
+			<div class="col-md-6 text-center">
+				<img src="D:\uber_project\Assects\3-2-ridesharing-new.jpg" alt="city ride" class="illustration">
+			</div>
+		</div>
+	</div>
+
+<section class="second_section">
+		<h1 class="fw-bold">Suggestions</h1>
+		<div class="grid_container">
+		<div class="card">
+			<p>Ride</p>
+			<div class="wraper"><a href="#">Go anywhere with uber. Request a ride, hop in, and go.</a>
+			<div id="one"><img src="D:\uber_project\Assects\ride.png"></div></div>
+			<button>Details</button>
+		</div>
+		<div class="card">
+			<p>Reserve</p>
+			<div class="wraper"><a href="#">Reserve your ride in advance so you can relax on the day of your trip.</a>
+			<div id="one"><img src="D:\uber_project\Assects\reserve_clock.png"></div></div>
+			<button>Details</button>
+		</div>
+		<div class="card">
+			<p>Intercity</p>
+			<div class="wraper"><a href="#">Get convenient, affordable outstation cabs anytime at your door.</a>
+			<div id="one"><img src="D:\uber_project\Assects\intercity.png"></div></div>
+			<button>Details</button>
+		</div>
+		<div class="card">
+			<p>Shuttle</p>
+			<div class="wraper"><a href="#">Lower-cost shared rides on proffesionally driven buses and vans.</a>
+			<div id="one"><img src="D:\uber_project\Assects\hcv.png"></div></div>
+			<button>Details</button>
+		</div>
+		<div class="card">
+			<p>Courier</p>
+			<div class="wraper"><a href="#">Uber makes same day item delivery easier than ever.</a>
+			<div id="one"><img src="D:\uber_project\Assects\Courier.png"></div></div>
+			<button>Details</button>
+		</div>
+		<div class="card">
+			<p>Rentals</p>
+			<div class="wraper"><a href="#">Request a trip for a block of time and make multiple stops.</a>
+			<div id="one"><img src="D:\uber_project\Assects\Hourly2021.png"></div></div>
+			<button>Details</button>
+		</div>
+	</div>
+</section>
+    <!--third section-->
+<div class="container hero-section">
+			    <div class="row align-items-center p-5">
+			    	<!--left side-->
+				<div class="col-md-6 mb-4 mb-md-0"><h2 class="hero-title fw-bold">Log in to see your recent activity</h2>
+				<p class="hero-text2 mt-3">View past trips, tailored suggestions, support resources, and more.</p>
+				<button class="btn btn-dark mt-3">Log in to your account</button><br>
+				<a href="#" class="custon-link">Don't have an account? Sign up</a>
+			</div>
+			<!--right side-->
+			<div class="col-md-6 text-center">
+				<img src="D:\uber_project\Assects\Airport-Fall.jpg" alt="Airport ride" class="illustration2">
+			</div>
+	</div>
+
+<div class="container py-5 p-5">
+			<h3 class="fw-bold mb-4">Plan for later</h3>
+			<div class="row align-items-center g-4">
+    <!--Left panel-->
+	<div class="col-lg-7">
+		<div class="reserve-card d-flex flex-column flex-md-row align-items-center justify-content-between">
+					<div class="flex-grow-1"><h4 class="fw-bold">Get your ride right with Uber Reserve</h4>
+					<p class="mt-3 mb-2">Choose date and time</p>
+						<div class="d-flex flex-column flex-sm-row gap-2">
+							<input type="date" class="form-control" placeholder="Date">
+							<input type="time" class="form-control" placeholder="Time">
+						</div>
+				<button class="btn btn-dark mt-3 w-100 w-sm-auto">Next</button>
+			</div>
+           <!--img section-->
+                	<img src="D:\uber_project\Assects\watch1.jpg" alt="Watch" class="img-fluid mt-4 mt-md-0 ms-md-4 rounded-circle" style="max-width: 180px;">
+                </div>
+          </div>
+            <!--Right Panel-->
+         <div class="col-lg-5">
+				<h5 class="fw-bold">Benefits</h5>
+				<ul class="list-unstyled mt-3">
+
+					<li class="mb-3 d-flex align-items-start">
+						<i class="fa-solid fa-clipboard Benefit-icon" style="color:black;"></i>
+						<span>Choose your exact pickup time up to 90 days in advance.</span>
+					</li>
+					<li class="mb-3 d-flex align-items-start">
+						<i class="fa-solid fa-clock Benefit-icon"></i>
+						<span>Extra wait time included to meet your ride.</span>
+					</li>
+					<li class="mb-3 d-flex align-items-start">
+						<i class="fa-solid fa-xmark Benefit-icon"></i>
+						<span>Cancel at no charge up to 60 minutes in advance.</span>
+					</li>
+				</ul>
+				<a href="#" class="text-decoration-underline">See terms</a>
+			</div>
+		</div>
+	</div>
+
+<div class="container hero-section">
+  <div class=" row align-items-center">
+	<!--Left part-->
+	<div class="col-md-6 text-center">
+	<img src="D:\uber_project\Assects\earner-illustra.png" alt="illustration of riding" class="illustration">
+    </div>
+    <div class="col-md-6 mb-4 mb-md-0"><h2 class="hero-title fw-bold mt-3">Drive when you want, make what you need</h2>
+    	<p class="hero-text2 mt-3">Make money on your schedule with deliveries or rides—or both. You can use your own car or choose a rental through Uber.</p>
+    	<button class="btn btn-dark mt-3">Get started</button><span>
+				<a href="#" class="text-decoration-underline">Already have an account? Sign in</a></span>
+    </div>
+   </div>
+</div>
+<div class="container hero-section">
+  <div class=" row align-items-center">
+	<!--Left part-->
+	<div class="col-md-6 mb-4 mb-md-0"><h2 class="hero-title fw-bold">The Uber you know, reimagined for business</h2>
+    	<p class="hero-text2 mt-3">Uber for Business is a platform for managing global rides and meals, and local deliveries, for companies of any size.</p>
+    	<button class="btn btn-dark mt-3 mb-4">Check out our solutions</button><br>
+			<a href="#" class="text-decoration-underline">Already have an account? Sign in</a>
+    </div>
+    <div class="col-md-6 text-center">
+	<img src="D:\uber_project\Assects\u4b-square.png" alt="illustration of riding" class="illustration">
+    </div>
+  </div>
+</div>
+
+<div class="container hero-section">
+  <div class=" row align-items-center">
+	<!--Left part-->
+	<div class="col-md-6 mb-4 mb-md-0"><h2 class="hero-title fw-bold">Make money by renting out your car</h2>
+    	<p class="hero-text2 mt-3">Connect with thousands of drivers and earn more per week with Uber’s free fleet management tools.</p>
+    	<button class="btn btn-dark mt-3">Get started</button><span>
+    </div>
+    <div class="col-md-6 text-center">
+	<img src="D:\uber_project\Assects\fleet-management.jpg" alt="illustration of riding" class="illustration">
+    </div>
+  </div>
+</div>
+
+<div class="footer container-fluid bg-dark">
+	<div class="row">
+		<div class="col-md-3 mb-4">
+			<h6 class="fw-bold text-light">Company</h6>
+			<ul class="list-unstyled">
+				<li><a href="#">About us</a></li>
+				<li><a href="#">Our offerings</a></li>
+				<li><a href="#">Newsroom</a></li>
+				<li><a href="#">Investors</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Careers</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3 mb-4">
+			<h6 class="fw-bold text-light">Products</h6>
+			<ul class="list-unstyled">
+				<li><a href="#">Ride</a></li>
+				<li><a href="#">Drive</a></li>
+				<li><a href="#">Eat</a></li>
+				<li><a href="#">Uber for Business</a></li>
+				<li><a href="#">Uber Freight</a></li>
+				<li><a href="#">Gift cards</a></li>
+				<li><a href="#">Uber Health</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3 mb-4">
+			<h6 class="fw-bold text-light">Global Citizenship</h6>
+			<ul class="list-unstyled">
+				<li><a href="#">Safety</a></li>
+				<li><a href="#">Sustainability</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3 mb-4">
+			<h6 class="fw-bold text-light">Travel</h6>
+			<ul class="list-unstyled">
+				<li><a href="#">Reserve</a></li>
+				<li><a href="#">Airports</a></li>
+				<li><a href="#">Cities</a></li>
+			</ul>
+		</div>
+	</div>
+  <div class="row align-items-center my-3">
+		<div class="col-md-6 footer-icons">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-x-twitter"></i></a>
+			<a href="#"><i class="fab fa-youtube"></i></a>
+			<a href="#"><i class="fab fa-linkedin-in"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+		</div>
+		<div class="col-md-6 text-md-end app-buttons">
+			<img src="D:\uber_project\Assects\i2.png" alt="Google Play">
+			<img src="D:\uber_project\Assects\i1.png" alt="App Store">
+		</div>
+	</div>
+	<div class="row bottom-bar">
+		<div class="col-md-6 text-light">
+			<p>&copy; 2025 Uber Technologies Inc.</p>
+		</div>
+		<div class="col-md-6 text-md-end">
+			<span class="text-light"><i class="fas fa-globe me-2"></i>English</span>
+      <span class="ms-4 text-light"><i class="fas fa-map-maker-alt me-2"></i>Kolkata</span>
+      <span class="ms-4 text-light">Privacy</span>
+      <span class="ms-3 text-light">Accessibility</span>
+      <span class="ms-3 text-light">Terms</span>
+		</div>
+	</div>
+</div>
+<div class="container-fluid px-0 mt-4 btn-light fixed-bottom">
+	<button type="button" class="btn btn-dark w-100 py-3 px-3 fw-bold">See Prices</button>
+</div>
+<script>
+		const toggleBtn =document.getElementById("customToggleBtn");
+		const navCollapse =document.getElementById("uberNavbar");
+		toggleBtn.addEventListener("click",() =>{
+			if (navCollapse.style.display==="none"||navCollapse.style.display==="") {
+				navCollapse.style.display="flex";
+				navCollapse.classList.add("flex-column");
+			    }
+			else{
+                   navCollapse.style.display="none";
+                   navCollapse.classList.remove("flex-column");
+			}
+		});
+	</script>
+
+
+</body>
+</html>
